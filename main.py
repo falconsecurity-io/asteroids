@@ -1,10 +1,10 @@
 import sys
 import pygame
-from constants import *
-from player import Player
-from asteroid import Asteroid
-from asteroidfield import AsteroidField
-from shot import Shot
+from logic.constants import *
+from logic.player import Player
+from logic.asteroid import Asteroid
+from logic.asteroidfield import AsteroidField
+from logic.shot import Shot
 
 def main():
     # init pygame
